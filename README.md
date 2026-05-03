@@ -1,12 +1,11 @@
 # Development-oppoA31-OP4C7D
-
 # Oppo A31 (CPH2015) | Development Hub 🚀
 
 ![Device](https://img.shields.io/badge/Device-Oppo%20A31-008375?style=for-the-badge)
 ![Chipset](https://img.shields.io/badge/SoC-Helio%20P35-blue?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge)
 
-Welcome to the central repository for **Oppo A31** custom development. This project is dedicated to providing stable, high-performance AOSP-based experiences and essential system patches for the MT6765 platform.
+Welcome to the central repository for **Oppo A31** custom development. This project provides stable, high-performance AOSP-based experiences, custom recoveries, and essential system patches for the MT6765 platform.
 
 ---
 
@@ -17,35 +16,38 @@ Welcome to the central repository for **Oppo A31** custom development. This proj
 
 ---
 
-## 🛠️ Our Featured Work
+## 🏗️ Custom Recoveries
+The backbone of any development project. Choose your preferred recovery environment below:
+
+### 📥 [Official TWRP for Oppo A31](https://github.com/ansh-m14x/Action-Recovery-Builder/releases/tag/OP4C7D-23419483116)
+* **Base:** TWRP 12.1
+* **Target:** Recovery Image
+* **Status:** Stable
+
+### 📥 [PitchBlack Recovery Project (PBRP)](https://github.com/ansh-m14x/Action-Recovery-Builder/releases/download/24278236713/PBRP-OP4C7D-4.0-20260411-0815-UNOFFICIAL.zip)
+* **Version:** 4.0 (Unofficial)
+* **Features:** Mounted system in `system_root` for better compatibility.
+* **Bugs:** Flashlight (Known issue).
+
+---
+
+## 🛠️ System Projects & Work
 
 ### 1. Pixel Experience (GSI Based)
 * **Android Version:** 12
 * **Status:** Stable / Daily Driver
 * **Fixes:** Custom camera and flashlight patches integrated.
-* **Requirement:** Must flash Vendor Patcher v1.2 before installation.
+* **Requirement:** Must flash **Vendor Patcher v1.2** before installation.
 
 ### 2. Project Sakura (Port)
 * **Android Version:** 11
 * **Base:** Realme 1
-* **Status:** Smooth UI with custom wallpaper engine and gesture support.
-* **Bugs:** None reported.
+* **Features:** Smooth UI with custom wallpaper engine and gesture support.
 
 ### 3. Vendor Patcher v1.2
-A specialized utility for the Oppo A31 to ensure GSI compatibility.
+A specialized utility to ensure GSI compatibility on Oppo devices.
 * **Fixed:** Camera & Flashlight on Android 10+ GSIs.
-* **Fixed:** External SD Card mounting issues.
-* **Optimization:** Improved partition mounting stability.
-
----
-
-## 📱 Device Specifications
-| Feature | Details |
-| :--- | :--- |
-| **CPU** | MediaTek Helio P35 |
-| **Architecture** | ARM64 |
-| **GPU** | PowerVR GE8320 |
-| **Display** | 720 x 1600 (HD+) |
+* **Fixed:** External SD Card mounting.
 
 ---
 
