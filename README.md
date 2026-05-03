@@ -20,7 +20,6 @@ Welcome to the central repository for **Oppo A31** custom development. This proj
 The backbone of any development project. Choose your preferred recovery environment below:
 
 ### 📥 [Official TWRP for Oppo A31](https://github.com/ansh-m14x/Action-Recovery-Builder/releases/tag/OP4C7D-23419483116)
-* **Base:** TWRP 12.1
 * **Target:** Recovery Image
 * **Status:** Stable
 
